@@ -1,0 +1,43 @@
+.DarkButton {
+    background-color: #a28a8a;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:link {
+    color: #a28a8a;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #766d6a;
+    text-decoration: none;
+}
+
+.LightButton {
+    background-color: #e7e0e0;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Dark Theme */
+.dark-theme {
+    background-color: #212529;
+    color: #e9ecef;
+}
+
+/* Light Theme */
+.light-theme {
+    background-color: rgb(220, 194, 194);
+    color: #212529;
+}
+
+button {
+    background-color: rgb(220, 194, 194);
+    color: #212529;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}

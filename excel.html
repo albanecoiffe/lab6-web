@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Custom Title</title>
+    <link rel= "stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="main-form" name="mainform">
+            <div class="container"></div>
+                <h1>Excel Functions</h1>
+                <label>Enter your numbers separated by spaces:</label>
+                <input type="text" placeholder="23 67 98 90 56" id="numbers">
+                <div class="options">
+                    <label><input type="radio" name="function" value="autosum"> AutoSum</label><br>
+                    <label><input type="radio" name="function" value="average"> Average</label><br>
+                    <label><input type="radio" name="function" value="max"> Max</label><br>
+                    <label><input type="radio" name="function" value="min"> Min</label><br>
+                </div>
+                <br><button id="send-button" onclick="myExcelFuns()" type="button" >Calculate</button><br>
+                <br><label for="result">Result:</label>
+                <input type="text" id="result" readonly>
+            </div>
+        </form>
+        
+        
+        <div id="output">
+
+        </div>
+    </main>
+    <footer>
+        <section><hr>
+            <p>Change the color :</p>
+            <button class="DarkButton" onclick="changeColor(2)">Dark</button>
+            <button class="LightButton" onclick="changeColor(1)">Light</button>
+        </section>
+        <p>ILAC & EFREI - HTML, CSS, and JavaScript Assignment</p>
+    </footer>
+</body>
+<script>changeColor(1)</script>
+</html>
